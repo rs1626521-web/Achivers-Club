@@ -183,24 +183,3 @@ export default function AchieversClubWebsite() {
     </div>
   );
 }
-
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
-
-// Paste your Achievers Club website component code here
-// (Use the full component from your existing canvas website)
-export { default } from '../achievers_club_business_website.jsx'
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: black;
-}
