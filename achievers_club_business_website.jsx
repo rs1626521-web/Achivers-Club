@@ -60,7 +60,10 @@ export default function AchieversClubWebsite() {
           </div>
         </motion.div>
 
-        <img src="/mnt/data/2(1).png" alt="Rahul Soni" className="w-80 md:w-96 rounded-3xl shadow-2xl border border-red-500/20" />
+     <img
+  src="/rahul.png"
+  alt="Rahul Soni"
+  className="w-80 md:w-96 rounded-3xl shadow-2xl border border-red-500/20 object-cover"/>
       </section>
 
       <section id="about" className="py-20 px-6 md:px-20">
