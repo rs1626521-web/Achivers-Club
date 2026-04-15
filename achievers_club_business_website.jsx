@@ -64,7 +64,7 @@ export default function AchieversClubWebsite() {
   <img
     src="/rahul.png"
     alt="Rahul Soni"
-    className="w-80 md:w-96 rounded-3xl shadow-2xl border border-red-500/20 object-cover"
+    className="w-[380px] h-[480px] object-cover rounded-3xl shadow-[0_0_40px_rgba(255,0,0,0.25)] border border-red-500/20"
   />
 </div>
       </section>
