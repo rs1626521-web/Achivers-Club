@@ -60,11 +60,12 @@ export default function AchieversClubWebsite() {
           </div>
         </motion.div>
 
-<div className="flex justify-center">
+<div className="relative flex justify-center">
+  <div className="absolute w-72 h-72 bg-red-600/20 blur-3xl rounded-full"></div>
   <img
     src="/rahul.png"
     alt="Rahul Soni"
-    className="w-[380px] h-[480px] object-cover rounded-3xl shadow-[0_0_40px_rgba(255,0,0,0.25)] border border-red-500/20"
+    className="relative w-[380px] h-[480px] object-cover rounded-3xl shadow-[0_0_40px_rgba(255,0,0,0.25)] border border-red-500/20"
   />
 </div>
       </section>
