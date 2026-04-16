@@ -26,3 +26,4 @@ export default function AppWrapper() {
 
   return <Website onLeadSubmit={handleLeadValidation} formError={error} />
 }
+
