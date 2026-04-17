@@ -13,7 +13,7 @@ export default function AchieversClubWebsite() {
     const phone = form.phone.value.trim();
     const age = Number(form.age.value);
 
-    if (!/^[+06789]\d{9}$/.test(phone)) {
+    if (!/^(?:\+91|0)?[6-9]\d{9}$/.test(phone)) {
       alert("Enter valid Indian mobile number");
       setLoading(false);
       return;
